@@ -5,7 +5,6 @@ from random import randint
 import prompt
 from brain_games import cli
 
-
 def is_even():
     name = cli.name
     count = 0
