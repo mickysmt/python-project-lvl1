@@ -25,3 +25,7 @@ jobs:
       - name: Run linter and pytest
         run: |
           make lint
+<<<<<<< HEAD
+=======
+          
+>>>>>>> 3c3b2d9652678753e7c0252fced1bed517748545
