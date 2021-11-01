@@ -15,3 +15,5 @@ package-install:
 
 make lint:
 	@poetry run flake8 brain_games
+run:
+	@poetry run python -m brain_games.scripts.brain_games
