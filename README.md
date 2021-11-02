@@ -5,4 +5,4 @@
 ### My workflow tests:
 ![my workflow](https://github.com/mickysmt/python-project-lvl1/actions/workflows/pyci.yml/badge.svg)
 #### Asciinema play step 5:
-https://asciinema.org/a/SArb6L47xyQTSSITSruEN9DWh
+[![asciicast](https://asciinema.org/a/SArb6L47xyQTSSITSruEN9DWh.svg)](https://asciinema.org/a/SArb6L47xyQTSSITSruEN9DWh)
