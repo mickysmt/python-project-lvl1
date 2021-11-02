@@ -1,34 +1,14 @@
 #!/usr/bin/env python3.
 
-from random import randint
-
-import prompt
-from brain_games import cli
+from brain_games.cli import intro, welcome_user
+from brain_games.games.brain_even import is_even
 
 
-def is_even():
-    name = cli.name
-    count = 0
-    while count < 3:
-        random_number = randint(1, 100)
-        print('Question: ' + str(random_number))
-        user_answer = prompt.string('Your Answer: ')
-        correct = ''
-        if random_number % 2 == 0 and user_answer == 'yes':
-            cli.correct_answer()
-            count = count + 1
-        elif random_number % 2 != 0 and user_answer == 'no':
-            cli.correct_answer()
-            count = count + 1
-        elif random_number % 2 == 0:
-            correct = 'yes'
-            cli.wrong_answer(user_answer, correct, name)
-            return
-        elif random_number % 2 != 0:
-            correct = 'no'
-            cli.wrong_answer(user_answer, correct, name)
-            return
-        else:
-            cli.wrong_answer(user_answer, correct, name)
-            return
-    cli.congrats(name)
+def main():
+    welcome_user()
+    intro()
+    is_even()
+
+
+if __name__ == '__main__':
+    main()

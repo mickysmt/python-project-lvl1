@@ -5,3 +5,5 @@
 #### Useage
 Brain-even:
 [![asciicast](https://asciinema.org/a/SArb6L47xyQTSSITSruEN9DWh.svg)](https://asciinema.org/a/SArb6L47xyQTSSITSruEN9DWh)
+Brain-calc:
+[![asciicast](https://asciinema.org/a/5KIJFfihnh2qBrsSGMxu4oJfm.svg)](https://asciinema.org/a/5KIJFfihnh2qBrsSGMxu4oJfm)

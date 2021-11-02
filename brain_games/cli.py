@@ -1,15 +1,21 @@
 #!/usr/bin/env python3.
 
+from random import randint
 import prompt
 
 name = ''
 
 
 def welcome_user():
+    print('Welcome to the Brain Games!')
     global name
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
     return name
+
+
+def calc_question():
+    print('What is the result of the expression?')
 
 
 def intro():
@@ -27,3 +33,7 @@ def wrong_answer(user_answer, correct, name):
 
 def congrats(name):
     print('Congratulations, {}!'.format(name))
+
+
+def random_num():
+    return randint(1, 10)
