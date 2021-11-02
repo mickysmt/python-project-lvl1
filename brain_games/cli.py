@@ -22,6 +22,10 @@ def intro():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
+def gcd_question():
+    print('Find the greatest common divisor of given numbers.')
+
+
 def correct_answer():
     print('Correct!')
 
@@ -36,4 +40,4 @@ def congrats(name):
 
 
 def random_num():
-    return randint(1, 10)
+    return randint(1, 100)
