@@ -8,7 +8,7 @@ import prompt
 from brain_games import cli
 
 
-ops = { '+': operator.add, '-': operator.sub, '*': operator.mul}
+ops = {'+': operator.add, '-': operator.sub, '*': operator.mul}
 
 
 def calc():
