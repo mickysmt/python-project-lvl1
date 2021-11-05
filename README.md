@@ -3,11 +3,15 @@
 ![my workflow](https://github.com/mickysmt/python-project-lvl1/actions/workflows/pyci.yml/badge.svg)
 
 #### Useage
-Brain-even:
-[![asciicast](https://asciinema.org/a/SArb6L47xyQTSSITSruEN9DWh.svg)](https://asciinema.org/a/SArb6L47xyQTSSITSruEN9DWh)
-Brain-calc:
+brain-games:
+[![asciicast](https://asciinema.org/a/nhnwwXXjyFwUbkP2kGQiCzyS5.svg)](https://asciinema.org/a/nhnwwXXjyFwUbkP2kGQiCzyS5)
+brain-even:
+[![asciicast](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ.svg)](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ)
+brain-calc:
 [![asciicast](https://asciinema.org/a/5KIJFfihnh2qBrsSGMxu4oJfm.svg)](https://asciinema.org/a/5KIJFfihnh2qBrsSGMxu4oJfm)
-Brain-gcd:
+brain-gcd:
 [![asciicast](https://asciinema.org/a/KBKDbSCFLtZcylT700r6H8EED.svg)](https://asciinema.org/a/KBKDbSCFLtZcylT700r6H8EED)
-Brain-progression:
+brain-progression:
 [![asciicast](https://asciinema.org/a/0f54ljrFsvxpkQmlVGJDc3vtF.svg)](https://asciinema.org/a/0f54ljrFsvxpkQmlVGJDc3vtF)
+brain-is-prime
+[![asciicast](https://asciinema.org/a/Sa4jVkoAKJQmF7vEdwtRE9eSg.svg)](https://asciinema.org/a/Sa4jVkoAKJQmF7vEdwtRE9eSg)

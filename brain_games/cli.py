@@ -18,7 +18,7 @@ def calc_question():
     print('What is the result of the expression?')
 
 
-def intro():
+def is_even_question():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
@@ -28,6 +28,10 @@ def gcd_question():
 
 def progression_question():
     print('What number is missing in the progression?')
+
+
+def is_prime_rule():
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
 def correct_answer():
