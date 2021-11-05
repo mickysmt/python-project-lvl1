@@ -26,6 +26,10 @@ def gcd_question():
     print('Find the greatest common divisor of given numbers.')
 
 
+def progression_question():
+    print('What number is missing in the progression?')
+
+
 def correct_answer():
     print('Correct!')
 
