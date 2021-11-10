@@ -12,9 +12,9 @@ brain-games (installation & run):
 brain-even:
 [![asciicast](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ.svg)](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ)
 brain-calc:
-[![asciicast](https://asciinema.org/a/5KIJFfihnh2qBrsSGMxu4oJfm.svg)](https://asciinema.org/a/5KIJFfihnh2qBrsSGMxu4oJfm)
+[![asciicast](https://asciinema.org/a/qU41SWjEqm0M9iZzZR6YndoB8.svg)](https://asciinema.org/a/qU41SWjEqm0M9iZzZR6YndoB8)
 brain-gcd:
-[![asciicast](https://asciinema.org/a/KBKDbSCFLtZcylT700r6H8EED.svg)](https://asciinema.org/a/KBKDbSCFLtZcylT700r6H8EED)
+[![asciicast](https://asciinema.org/a/kwABqSCq2i0V1pHBwRQBdAjzI.svg)](https://asciinema.org/a/kwABqSCq2i0V1pHBwRQBdAjzI)
 brain-progression:
 [![asciicast](https://asciinema.org/a/0f54ljrFsvxpkQmlVGJDc3vtF.svg)](https://asciinema.org/a/0f54ljrFsvxpkQmlVGJDc3vtF)
 brain-is-prime
