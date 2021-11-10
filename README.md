@@ -1,12 +1,14 @@
+[![Actions Status](https://github.com/mickysmt/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/mickysmt/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 ![my workflow](https://github.com/mickysmt/python-project-lvl1/actions/workflows/pyci.yml/badge.svg)
 
 #### Installation:
-pip install brain-games-by-ms
+poetry build
+python3 -m pip install --user
 
 #### Useage
 brain-games (installation & run):
-[![asciicast](https://asciinema.org/a/IZEwsRFKkItxh74inZMaauWWp.svg)](https://asciinema.org/a/IZEwsRFKkItxh74inZMaauWWp)
+[![asciicast](https://asciinema.org/a/U7CnJiDZlqmGAXALHOXUVR4lr.svg)](https://asciinema.org/a/U7CnJiDZlqmGAXALHOXUVR4lr)
 brain-even:
 [![asciicast](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ.svg)](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ)
 brain-calc:
