@@ -11,8 +11,8 @@ def progression():
     while count < 3:
         a = randint(1, 100)
         d = randint(1, 20)
-        list = [a, a + d, a + 2 * d, a + 3 * d, a + 4 * d, a + 5 * d, a + 6 * d, a + 7 * d, a + 8 * d, a + 9 * d]
-        for_choice = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        list = [a, a + d, a + 2 * d, a + 3 * d, a + 4 * d]
+        for_choice = [0, 1, 2, 3, 4]
         choice_index = choice(for_choice)
         correct = list[choice_index]
         list[choice_index] = '..'

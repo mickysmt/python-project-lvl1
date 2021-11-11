@@ -39,7 +39,8 @@ def correct_answer():
 
 
 def wrong_answer(user_answer, correct, name):
-    print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(user_answer, correct))
+    wrong = "'{}' is wrong answer ;(. Correct answer was '{}'."
+    print(wrong.format(user_answer, correct))
     print("Let's try again, {}!".format(name))
 
 
