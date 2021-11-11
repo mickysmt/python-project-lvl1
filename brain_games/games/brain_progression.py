@@ -4,6 +4,7 @@ import prompt
 from random import randint, choice
 from brain_games import cli
 
+
 def progression():
     name = cli.name
     count = 0
@@ -15,7 +16,7 @@ def progression():
         choice_index = choice(for_choice)
         correct = list[choice_index]
         list[choice_index] = '..'
-        print('Question: ' + ' '.join([str (i) for i in list]))
+        print('Question: ' + ' '.join([str(i) for i in list]))
         user_answer = prompt.string('Your Answer: ')
         if user_answer == str(correct):
             cli.correct_answer()

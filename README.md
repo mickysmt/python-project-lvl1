@@ -8,7 +8,7 @@ python3 -m pip install --user
 
 #### Useage
 brain-games (installation & run):
-[![asciicast](https://asciinema.org/a/U7CnJiDZlqmGAXALHOXUVR4lr.svg)](https://asciinema.org/a/U7CnJiDZlqmGAXALHOXUVR4lr)
+[![asciicast](https://asciinema.org/a/DAmKC4UCqBKezCtjrdUlWGhTr.svg)](https://asciinema.org/a/DAmKC4UCqBKezCtjrdUlWGhTr)
 brain-even:
 [![asciicast](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ.svg)](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ)
 brain-calc:
