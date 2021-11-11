@@ -19,7 +19,7 @@ def calc():
         num_two = cli.random_num()
         expression = choice(list(ops.keys()))
         correct = (ops[expression](num_one, num_two))
-        print('Question: ' + str(num_one) + expression + str(num_two))
+        print('Question: ' + str(num_one) + ' ' + expression + ' ' + str(num_two))
         user_answer = prompt.string('Your Answer: ')
         if user_answer == str(correct):
             cli.correct_answer()
