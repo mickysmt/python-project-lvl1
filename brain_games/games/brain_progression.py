@@ -13,10 +13,10 @@ def make_progression():
 
 
 def game_logic():
-    progression = make_progression()
+    prog = make_progression()
     correct = choice(progression)
-    prog_for_question = ' '.join(['..' if i == correct else str(i) for i in progression])
-    question = ('Question: ' + prog_for_question)
+    quest_prog = ' '.join(['..' if i == correct else str(i) for i in prog])
+    question = ('Question: ' + quest_prog)
     return(str(correct), question)
 
 
