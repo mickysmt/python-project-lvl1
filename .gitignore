@@ -1,2 +1,4 @@
 .venv/
 .colorama/
+__pycache__
+dist/

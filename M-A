@@ -1,4 +1,0 @@
-
-packages = [
-  { include = "brain_games" },
-]

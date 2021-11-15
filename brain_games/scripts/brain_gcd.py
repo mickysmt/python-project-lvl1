@@ -1,13 +1,13 @@
 #!/usr/bin/env python3.
 
 from brain_games.cli import welcome_user, gcd_question
-from brain_games.games.brain_gcd import gcd_func
+from brain_games.games.brain_gcd import game
 
 
 def main():
     welcome_user()
     gcd_question()
-    gcd_func()
+    game()
 
 
 if __name__ == '__main__':

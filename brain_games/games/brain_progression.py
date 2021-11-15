@@ -1,27 +1,24 @@
 #!/usr/bin/env python3.
 
-import prompt
 from random import randint, choice
-from brain_games import cli
+from brain_games.games.game_engine import engine, random_num
 
 
-def progression():
-    name = cli.name
-    count = 0
-    while count < 3:
-        a = randint(1, 100)
-        d = randint(1, 20)
-        list = [a, a + d, a + 2 * d, a + 3 * d, a + 4 * d]
-        for_choice = [0, 1, 2, 3, 4]
-        choice_index = choice(for_choice)
-        correct = list[choice_index]
-        list[choice_index] = '..'
-        print('Question: ' + ' '.join([str(i) for i in list]))
-        user_answer = prompt.string('Your Answer: ')
-        if user_answer == str(correct):
-            cli.correct_answer()
-            count = count + 1
-        else:
-            cli.wrong_answer(user_answer, correct, name)
-            return
-    cli.congrats(name)
+def make_progression():
+    first_num = random_num()
+    delta = randint(1, 20)
+    prog_length = 10
+    last_num = (delta * prog_length) + first_num
+    return range(first_num, last_num, delta)
+
+
+def game_logic():
+    progression = make_progression()
+    correct = choice(progression)
+    prog_for_question = ' '.join(['..' if i == correct else str(i) for i in progression])
+    question = ('Question: ' + prog_for_question)
+    return(str(correct), question)
+
+
+def game():
+    engine(game_logic)

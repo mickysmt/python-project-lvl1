@@ -3,28 +3,20 @@
 
 import operator
 from random import choice
-
-import prompt
-from brain_games import cli
+from brain_games.games.game_engine import engine, random_num
 
 
 ops = {'+': operator.add, '-': operator.sub, '*': operator.mul}
 
 
-def calc():
-    name = cli.name
-    count = 0
-    while count < 3:
-        num_one = cli.random_num()
-        num_two = cli.random_num()
-        exp = choice(list(ops.keys()))
-        correct = (ops[exp](num_one, num_two))
-        print('Question: ' + str(num_one) + ' ' + exp + ' ' + str(num_two))
-        user_answer = prompt.string('Your Answer: ')
-        if user_answer == str(correct):
-            cli.correct_answer()
-            count = count + 1
-        else:
-            cli.wrong_answer(user_answer, correct, name)
-            return
-    cli.congrats(name)
+def game_logic():
+    num_one = random_num()
+    num_two = random_num()
+    exp = choice(list(ops.keys()))
+    correct = (ops[exp](num_one, num_two))
+    question = ('Question: ' + str(num_one) + ' ' + exp + ' ' + str(num_two))
+    return(correct, question)
+
+
+def game():
+    engine(game_logic)

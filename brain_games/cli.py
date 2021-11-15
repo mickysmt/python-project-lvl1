@@ -1,6 +1,5 @@
 #!/usr/bin/env python3.
 
-from random import randint
 import prompt
 
 name = ''
@@ -46,7 +45,3 @@ def wrong_answer(user_answer, correct, name):
 
 def congrats(name):
     print('Congratulations, {}!'.format(name))
-
-
-def random_num():
-    return randint(1, 100)
