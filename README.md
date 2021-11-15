@@ -8,14 +8,14 @@ python3 -m pip install --user
 
 #### Useage
 brain-games (installation & run):
-[![asciicast](https://asciinema.org/a/DAmKC4UCqBKezCtjrdUlWGhTr.svg)](https://asciinema.org/a/DAmKC4UCqBKezCtjrdUlWGhTr)
+[![asciicast](https://asciinema.org/a/449350.svg)](https://asciinema.org/a/449350)
 brain-even:
-[![asciicast](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ.svg)](https://asciinema.org/a/Pc1i6suU2WZpWKWGgUvbysSQJ)
+[![asciicast](https://asciinema.org/a/449340.svg)](https://asciinema.org/a/449340)
 brain-calc:
-[![asciicast](https://asciinema.org/a/OYYTRiv2gJtBfKI93tViMoTGK.svg)](https://asciinema.org/a/OYYTRiv2gJtBfKI93tViMoTGK)
+[![asciicast](https://asciinema.org/a/449349.svg)](https://asciinema.org/a/449349)
 brain-gcd:
-[![asciicast](https://asciinema.org/a/kwABqSCq2i0V1pHBwRQBdAjzI.svg)](https://asciinema.org/a/kwABqSCq2i0V1pHBwRQBdAjzI)
+[![asciicast](https://asciinema.org/a/449347.svg)](https://asciinema.org/a/449347)
 brain-progression:
-[![asciicast](https://asciinema.org/a/V1KeVOY3LfiNagwL79I6nnVtM.svg)](https://asciinema.org/a/V1KeVOY3LfiNagwL79I6nnVtM)
+[![asciicast](https://asciinema.org/a/449344.svg)](https://asciinema.org/a/449344)
 brain-is-prime
-[![asciicast](https://asciinema.org/a/Sa4jVkoAKJQmF7vEdwtRE9eSg.svg)](https://asciinema.org/a/Sa4jVkoAKJQmF7vEdwtRE9eSg)
+[![asciicast](https://asciinema.org/a/449343.svg)](https://asciinema.org/a/449343)
