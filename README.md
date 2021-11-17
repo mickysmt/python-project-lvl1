@@ -3,8 +3,8 @@
 ![my workflow](https://github.com/mickysmt/python-project-lvl1/actions/workflows/pyci.yml/badge.svg)
 
 #### Installation:
-poetry build
-python3 -m pip install --user
+1. poetry build
+2. python3 -m pip install --user
 
 #### Useage
 brain-games (installation & run):
