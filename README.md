@@ -1,5 +1,5 @@
 [![Actions Status](https://github.com/mickysmt/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/mickysmt/python-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/mickysmt/python-project-lvl1)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f671ae41099237363c0c/maintainability)](https://codeclimate.com/github/mickysmt/python-project-lvl1/maintainability)
 ![my workflow](https://github.com/mickysmt/python-project-lvl1/actions/workflows/pyci.yml/badge.svg)
 
 #### Installation:
