@@ -1,24 +1,30 @@
 #!/usr/bin/env python3.
 
 from random import randint, choice
-from brain_games.games.game_engine import engine, random_num
+
+RULE = 'What number is missing in the progression?'
+
+PROGESSION_LENGTH = 10
 
 
-def make_progression():
-    first_num = random_num()
-    delta = randint(1, 20)
-    prog_length = 10
-    last_num = (delta * prog_length) + first_num
+def generate_first_num():
+    return randint(1, 100)
+
+
+def generate_delta():
+    return randint(1, 20)
+
+
+def generate_progression():
+    first_num = generate_first_num()
+    delta = generate_delta()
+    last_num = (delta * PROGESSION_LENGTH) + first_num
     return range(first_num, last_num, delta)
 
 
-def game_logic():
-    prog = make_progression()
+def generate_round():
+    prog = generate_progression()
     correct = choice(prog)
     quest_prog = ' '.join(['..' if i == correct else str(i) for i in prog])
     question = ('Question: ' + quest_prog)
     return(str(correct), question)
-
-
-def game():
-    engine(game_logic)

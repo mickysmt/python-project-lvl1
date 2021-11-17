@@ -1,13 +1,10 @@
 #!/usr/bin/env python3.
-
-from brain_games.cli import welcome_user, calc_question
-from brain_games.games.brain_calc import game
+from brain_games.game_engine import run
+from brain_games.games import brain_calc
 
 
 def main():
-    welcome_user()
-    calc_question()
-    game()
+    run(brain_calc)
 
 
 if __name__ == '__main__':

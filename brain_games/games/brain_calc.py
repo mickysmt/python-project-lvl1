@@ -1,22 +1,23 @@
 #!/usr/bin/env python3.
 
-
 import operator
-from random import choice
-from brain_games.games.game_engine import engine, random_num
+from random import choice, randint
+
+RULE = 'What is the result of the expression?'
 
 
 ops = {'+': operator.add, '-': operator.sub, '*': operator.mul}
 
 
-def game_logic():
-    num_one = random_num()
-    num_two = random_num()
+def calculate_correct_answer(num_one, num_two, exp):
+    correct_answer = (ops[exp](num_one, num_two))
+    return correct_answer
+
+
+def generate_round():
+    num_one = randint(1, 100)
+    num_two = randint(1, 100)
     exp = choice(list(ops.keys()))
-    correct = (ops[exp](num_one, num_two))
+    correct = calculate_correct_answer(num_one, num_two, exp)
     question = ('Question: ' + str(num_one) + ' ' + exp + ' ' + str(num_two))
     return(correct, question)
-
-
-def game():
-    engine(game_logic)

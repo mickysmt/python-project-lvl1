@@ -1,30 +1,26 @@
 #!/usr/bin/env python3.
 
+from random import randint
 
-from brain_games.games.game_engine import engine, random_num
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime_logic(num):
-    i = 2
+def is_prime(num):
+    divider = 2
     if num < 2:
         return False
-    elif i >= 2:
-        while i <= num / 2:
-            if num % i == 0:
-                return False
-            i += 1
-        return True
+    while divider <= num / 2:
+        if num % divider == 0:
+            return False
+        divider += 1
+    return True
 
 
-def game_logic():
-    number = random_num()
+def generate_round():
+    number = randint(1, 100)
     question = ('Question: ' + str(number))
-    if is_prime_logic(number) is True:
+    if is_prime(number) is True:
         correct = 'yes'
     else:
         correct = 'no'
     return(correct, question)
-
-
-def game():
-    engine(game_logic)
