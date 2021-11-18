@@ -12,7 +12,7 @@ def run(game):
     print(game.RULE)
     for win_count in range(NUMBER_OF_ROUNDS):
         correct, question = game.generate_round()
-        print(question)
+        print('Question: ' + question)
         user_answer = prompt.string('Your Answer: ')
         if user_answer == str(correct):
             print('Correct!')

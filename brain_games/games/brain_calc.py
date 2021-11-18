@@ -19,5 +19,5 @@ def generate_round():
     num_two = randint(1, 100)
     exp = choice(list(ops.keys()))
     correct = calculate_correct_answer(num_one, num_two, exp)
-    question = ('Question: ' + str(num_one) + ' ' + exp + ' ' + str(num_two))
+    question = str(num_one) + ' ' + exp + ' ' + str(num_two)
     return(correct, question)

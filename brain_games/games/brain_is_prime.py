@@ -18,7 +18,7 @@ def is_prime(num):
 
 def generate_round():
     number = randint(1, 100)
-    question = ('Question: ' + str(number))
+    question = str(number)
     if is_prime(number) is True:
         correct = 'yes'
     else:

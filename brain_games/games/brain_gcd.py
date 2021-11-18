@@ -15,5 +15,5 @@ def generate_round():
     num_one = randint(1, 100)
     num_two = randint(1, 100)
     correct = gcd(num_one, num_two)
-    question = ('Question: ' + str(num_one) + ' ' + str(num_two))
+    question = str(num_one) + ' ' + str(num_two)
     return(correct, question)

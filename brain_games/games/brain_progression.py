@@ -7,24 +7,15 @@ RULE = 'What number is missing in the progression?'
 PROGESSION_LENGTH = 10
 
 
-def generate_first_num():
-    return randint(1, 100)
-
-
-def generate_delta():
-    return randint(1, 20)
-
-
-def generate_progression():
-    first_num = generate_first_num()
-    delta = generate_delta()
+def generate_progression(first_num, delta):
     last_num = (delta * PROGESSION_LENGTH) + first_num
     return range(first_num, last_num, delta)
 
 
 def generate_round():
-    prog = generate_progression()
+    first_num = randint(1, 100)
+    delta = randint(1, 20)
+    prog = generate_progression(first_num, delta)
     correct = choice(prog)
-    quest_prog = ' '.join(['..' if i == correct else str(i) for i in prog])
-    question = ('Question: ' + quest_prog)
+    question = ' '.join(['..' if i == correct else str(i) for i in prog]) 
     return(str(correct), question)
