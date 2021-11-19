@@ -17,5 +17,5 @@ def generate_round():
     delta = randint(1, 20)
     prog = generate_progression(first_num, delta)
     correct = choice(prog)
-    question = ' '.join(['..' if i == correct else str(i) for i in prog]) 
+    question = ' '.join(['..' if i == correct else str(i) for i in prog])
     return(str(correct), question)
